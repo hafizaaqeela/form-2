@@ -1,0 +1,39 @@
+*{
+    text-transform: capitalize;
+}
+form{
+    border: 2px dashed;
+    width: 600px;
+    margin-left: 330px;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+h1{
+    font-weight: 900;
+    font-size: 52px;
+    text-align: center;
+    text-decoration: underline;
+}
+input{
+    margin-bottom: 10px;
+}
+.email{
+    margin-left: 33px;
+    width: 460px;
+}
+.last{
+    margin-left: 23px;
+}
+.password{
+    width: 170px;
+    margin-left: 10px;
+}
+.cp{
+    width: 150px;
+}
+.address{
+    margin-left: 24px;
+    width: 460px;
+}

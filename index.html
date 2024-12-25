@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1> create account</h1>
+        <label for="first-name"> first name*:
+            <input type="text" placeholder="enter-your-first-name">
+        </label>
+        <label for="last-name" class="last">last name*:
+            <input type="text" placeholder="enter-your-last-name">
+        </label> <br>
+        <label for="email">email*:
+            <input type="email"  class="email" placeholder="enter-your-email">
+        </label> <br>
+        <label for="password">password*:
+            <input type="text" class="password" placeholder="enter-your-password">
+        </label>
+        <label for="confirm-password"> confirm password:
+            <input type="text" class="cp" placeholder="enter-password-again">
+        </label> <br>
+        <label for="address">address*
+            <input type="text" class="address" placeholder="write-your-permanent-address">
+        </label>
+        <p>Gender <br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+        </p>
+        <p>Hobbies <br>
+           <input type="checkbox" name="Hobbies" value="Music">Music
+           <input type="checkbox" name="Hobbies" value="Sports">Sports
+           <input type="checkbox" name="Hobbies" value="Travel">Travel
+           <input type="checkbox" name="Hobbies" value="Movies">Movies
+        </p>
+        <p>Source of Income 
+            <select><option value="employeed">employeed</option>
+            <option value="unemployeed">unemployeed</option>
+            <option value="student">student</option>
+            <option value="business">business</option></select>
+            <p>Income <br>
+                <input type="range" name="Income"> <span style="color:white; background-color: rgb(61, 98, 245); margin: 4px;padding: 5px; border-radius: 20px;">20K</span>
+            </p>
+            <p>Upload Profile Picture <br>
+                <input type="file" name="profile-picture">
+            </p>
+            <label> DOB</label>
+            <input type="date">
+            <label style="margin-left: 150px;">Age</label> <input type="number">
+            <p>Bio <br>
+                <textarea rows="10" cols="70"></textarea>
+            </p>
+            <button>Next</button>
+    </form> <br>
+    <form><fieldset>
+        <h1>Educational Information</h1>
+        <label>What is your last qualification?</label> <br>
+        <input type="radio" name="Education" value="middle">Middle <br>
+        <input type="radio" name="Education" value="Matric"> Matric <br>
+        <input type="radio" name="Education" value="Intermediate"> Intermediate <br>
+        <input type="radio" name="Education" value="Graduate" required> Graduate <br>
+        <input type="radio" name="Education" value="Maters"> Masters <br>
+        <input type="radio" name="Education" value="Others"> Others <br>
+        <label>Others please specify</label> <br>
+        <textarea rows="1" cols="20"></textarea> <br>
+        <button>save</button>
+    </fieldset> </form> <br>
+    <form> <fieldset>
+        <h1>Experience</h1>
+        <label>How much experience do you have?</label>
+        <input type="number">
+    </fieldset>
+</form>
+</body>
+</html>
